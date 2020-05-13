@@ -89,10 +89,9 @@ void loadMedia(SDL_Texture* &gTexture, SDL_Renderer* &renderer,std::string path)
 {
     gTexture = loadTexture(path , gTexture, renderer);
     if(gTexture == NULL) logSDLError(std::cout, "LoadMedia", true);
-
 }
 
-bool collision(SDL_Rect a, SDL_Rect b)
+bool collision(SDL_Rect a, SDL_Rect b) // Tham khảo https://lazyfoo.net/tutorials/SDL/27_collision_detection/index.php
 {
     int leftA, leftB;
     int rightA, rightB;
@@ -113,6 +112,5 @@ bool collision(SDL_Rect a, SDL_Rect b)
         return false;
     return true;
 }
-
 
 

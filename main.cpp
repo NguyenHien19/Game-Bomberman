@@ -23,8 +23,6 @@ SDL_Texture* object = NULL;
 SDL_Texture* live = NULL;
 SDL_Texture* background = NULL;
 Mix_Chunk* sound = NULL;
-
-SDL_Rect handlePlayer;
 SDL_Event e;
 
 struct Baddies {
