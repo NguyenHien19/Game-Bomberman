@@ -1,4 +1,4 @@
-### Project game Bomberman
+### Project game Dodger
 Cách chơi : 
 - Người chơi sử dụng 2 phím mũi tên -> và -< để điều khiển nhân vật di chuyển
 - Nhân vật có 3 mạng sống
